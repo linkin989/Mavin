@@ -1,0 +1,3 @@
+@FindBy(xpath = "//*[@name='lname']")
+    @CacheLookup
+    WebElement lastName;
